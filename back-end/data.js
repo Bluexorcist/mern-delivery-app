@@ -6,7 +6,7 @@ export const data = {
             shop: 'McDonalds',
             name: 'McWings 4pc',
             price: 5.50,
-            img: '/images/mcd1.png'
+            img: '/images/mcwings-4pc.jpg'
         },
         {
             slug: 'french-fries-l',
@@ -14,7 +14,7 @@ export const data = {
             shop: 'McDonalds',
             name: 'French Fries (L)',
             price: 4.20,
-            img: '/images/mcd2.png'
+            img: '/images/french-fries-l.jpg'
         },
         {
             slug: 'chicken-mcnuggets-20pc',
@@ -22,7 +22,7 @@ export const data = {
             shop: 'McDonalds',
             name: 'Chicken McNuggets (20pc)',
             price: 15.50,
-            img: '/images/mcd3.png'
+            img: '/images/chicken-mcnuggets-20pc.jpg'
         },
         {
             slug: 'cheeseburger',
@@ -30,15 +30,15 @@ export const data = {
             shop: 'KFC',
             name: 'Cheeseburger',
             price: 3.50,
-            img: '/images/kfc2.jpg'
+            img: '/images/cheeseburger.jpg'
         },
         {
             slug: 'burger',
-            description: 'Настя сама краща',
+            description: 'sdsdssd',
             shop: 'KFC',
             name: 'Burger',
             price: 4,
-            img: '/images/kfc1.jpg'
+            img: '/images/burger.jpg'
         },
         {
             slug: 'longer',
@@ -46,7 +46,7 @@ export const data = {
             shop: 'KFC',
             name: 'Longer',
             price: 2.70,
-            img: '/images/kfc3.jpg'
+            img: '/images/longer.jpg'
         },
         {
             slug: 'breads-with-cheese',
@@ -54,7 +54,7 @@ export const data = {
             shop: 'Dominozz',
             name: 'Breads with cheese',
             price: 3.20,
-            img: '/images/dominozz1.jpg'
+            img: '/images/breads-with-cheese.jpg'
         },
         {
             slug: 'bread-with-spinach-and-feta',
@@ -62,7 +62,7 @@ export const data = {
             shop: 'Dominozz',
             name: 'Bread with spinach and feta',
             price: 2.50,
-            img: '/images/dominozz2.jpg'
+            img: '/images/bread-with-spinach-and-feta.jpg'
         },
         {
             slug: 'bread-with-ham-and-mushrooms',
@@ -70,7 +70,7 @@ export const data = {
             shop: 'Dominozz',
             name: 'Bread with ham and mushrooms',
             price: 3.90,
-            img: '/images/dominozz3.jpg'
+            img: '/images/bread-with-ham-and-mushrooms.jpg'
         },
         {
             slug: 'homemade-sausage',
@@ -78,7 +78,7 @@ export const data = {
             shop: 'Puzata Hata',
             name: 'Homemade sausage',
             price: 1.50,
-            img: '/images/puzatahata1.jpg'
+            img: '/images/homemade-sausage.jpg'
         },
         {
             slug: 'baked-salmon',
@@ -86,7 +86,7 @@ export const data = {
             shop: 'Puzata Hata',
             name: 'Baked salmon',
             price: 3.50,
-            img: '/images/puzatahata2.jpg'
+            img: '/images/baked-salmon.jpg'
         },
         {
             slug: 'grilled-chicken-steak',
@@ -94,7 +94,31 @@ export const data = {
             shop: 'Puzata Hata',
             name: 'Grilled chicken steak',
             price: 2.20,
-            img: '/images/puzatahata3.jpg'
+            img: '/images/grilled-chicken-steak.jpg'
+        },
+        {
+            slug: 'pizza-4-cheese',
+            description: 'balblablablablbalba',
+            shop: 'Pizza House',
+            name: 'Pizza 4 Cheese',
+            price: 2.20,
+            img: '/images/pizza-4-cheese.jpg'
+        },
+        {
+            slug: 'pizza-pepperoni',
+            description: 'balblablablablbalba',
+            shop: 'Pizza House',
+            name: 'Pizza Pepperoni',
+            price: 2.20,
+            img: '/images/pizza-pepperoni.jpg'
+        },
+        {
+            slug: 'pizza-hawaiian',
+            description: 'balblablablablbalba',
+            shop: 'Pizza House',
+            name: 'Pizza Hawaiian',
+            price: 2.20,
+            img: '/images/pizza-hawaiian.jpg'
         },
     ]
 }
