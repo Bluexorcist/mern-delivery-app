@@ -4,6 +4,9 @@ import logger from "use-reducer-logger";
 import {Col, Row} from "react-bootstrap";
 import Product from "./Product";
 import FilterButtons from "./FilterButtons";
+import {Helmet} from "react-helmet-async";
+import LoadingBox from "../Utilities/LoadingBox";
+import MessageBox from "../Utilities/MessageBox";
 
 
 const reducer = (state, action) => {
@@ -68,19 +71,22 @@ const Shop = () => {
     return (
 
         <div style={{marginTop: '70px'}}>
+            <Helmet>
+                <title>Shop</title>
+            </Helmet>
             <FilterButtons uniq={uniq} changeFilter={changeFilter}/>
             <Row className='d-flex justify-content-around'>
-                {            loading? (
-                    <div>Loading...</div>
-                ) : error? (<div>{error}</div>
+                {loading ? (
+                    <LoadingBox/>
+                ) : error ? (<MessageBox variant='danger'>{error}</MessageBox>
                 ) : (
                     filteredProducts.map((product) => (
-                    <Col lg={3} md={4} sm={4} xs={6}
-                         className='m-3 d-flex justify-content-around'
-                         key={product.slug}>
-                        <Product product={product}/>
-                    </Col>
-                )))}
+                        <Col lg={3} md={4} sm={4} xs={6}
+                             className='m-3 d-flex justify-content-around'
+                             key={product.slug}>
+                            <Product product={product}/>
+                        </Col>
+                    )))}
             </Row>
         </div>
 
