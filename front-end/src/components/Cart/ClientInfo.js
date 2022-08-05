@@ -1,8 +1,8 @@
 import React from 'react';
-import {Button, Col, Form, Row} from "react-bootstrap";
+import {Col, Form, Row} from "react-bootstrap";
 
 const ClientInfo = (props) => {
-    const {updateInfoHandler} = props;
+    const {updateInfoHandler, clientInfo} = props;
     return (
         <Form style={{border: '1px solid #dadada', borderRadius: '5px', padding: '10px'}}>
             <Row className="mb-3">
@@ -32,12 +32,13 @@ const ClientInfo = (props) => {
                               onChange={updateInfoHandler}/>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formGridAddress2">
-                <Form.Label>Telephone</Form.Label>
-                <Form.Control placeholder="Enter telephone"
-                              name='telephone'
-                              onChange={updateInfoHandler}/>
-            </Form.Group>
+                <Form.Group className="mb-3" controlId="formGridAddress2">
+                    <Form.Label>Telephone</Form.Label>
+                    <Form.Control placeholder="Enter telephone"
+                                  name='telephone'
+                                  onChange={updateInfoHandler}/>
+                </Form.Group>
+
 
             <Row className="mb-3">
                 <Form.Group as={Col} controlId="formGridAddress">
